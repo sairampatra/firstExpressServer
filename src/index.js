@@ -111,6 +111,8 @@ app.listen(6969, () => {
   console.log("soroboro");
 });
 
+// lol
+
 
 app.post("/ping",isAuthenticated ,(req, res) => {
   console.log(req.user, 'hahaahah')
